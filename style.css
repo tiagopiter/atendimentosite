@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    scroll-behavior: smooth;
+}
+header {
+    background: linear-gradient(135deg, #001f3f, #00509d);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav {
+    background-color: #022141;
+    padding: 08px 0;
+    z-index: 1000;
+    top: 0;
+    position: sticky;
+}
+    
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+    
+nav a:hover {
+    background-color: hsl(210, 87%, 22%);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+    }
+
+h1 {
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 20px;
+}
+.section-white {
+    background-color: white;
+    padding: 50px 20px;
+}
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.about-us .text {
+    flex: 1;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.about-us img {
+    flex: 1;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.about-us img:hover {
+    transform: scale(1.05);
+}
+.section-services {
+    background-color: #001f3f;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+.section-services h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.section-services ul {
+    list-style-type: none;
+    padding: 0;
+}
+.section-services ul li {
+    font-size: 20px;
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+.section-services ul li:hover {
+    transform: translateY(-3px);
+}
+.section-reviews {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+.section-reviews h2 {
+    font-size: 32px;
+    color: #001f3f;
+    margin-bottom: 30px;
+}
+.review {
+    font-style: italic;
+    margin: 20px 0;
+    transition: transform 0.3s;
+}
+.review:hover {
+    transform: scale(1.02);
+}
+footer {
+    background-color: #001f3f;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+footer nav a:hover {
+    color: #FFD700;
+}
