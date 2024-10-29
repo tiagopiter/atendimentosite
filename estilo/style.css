@@ -6,6 +6,12 @@ body {
     color: #333;
     scroll-behavior: smooth;
 }
+header h2 {
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        margin-bottom: 20px;
+        color: #ffffff;
+}
 header {
     background: linear-gradient(135deg, #001f3f, #00509d);
     color: white;
@@ -31,10 +37,10 @@ nav a {
     
 nav a:hover {
     background-color: hsl(210, 87%, 22%);
-    color: white;
+    color: rgb(231, 227, 3);
     text-decoration: none;
     font-weight: bold;
-    transition-duration: .5s;
+    transition-duration: .3s;
     }
 
 h1 {
@@ -42,12 +48,24 @@ h1 {
     letter-spacing: 1.5px;
     margin-bottom: 20px;
 }
+
+
+
 p {
     font-size: 20px;
+    text-align: justify;
 }
+
+.section-white h2 {
+    background-color:white;
+    padding: 10px 150px;
+    margin-bottom: 1px;
+}
+
 .section-white {
     background-color: white;
     padding: 50px 20px;
+    margin-bottom: 5px;
 }
 .about-us {
     display: flex;
@@ -56,6 +74,7 @@ p {
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0px;
     gap: 20px;
 }
 .about-us .text {
@@ -79,6 +98,7 @@ p {
     color: white;
     padding: 50px 20px;
     text-align: center;
+   
 }
 .section-services h2 {
     font-size: 32px;
@@ -106,8 +126,10 @@ p {
     color: #001f3f;
     margin-bottom: 30px;
 }
-.review {
+
+.review p {
     font-style: italic;
+    text-align: center;
     margin: 20px 0;
     transition: transform 0.3s;
 }
@@ -121,6 +143,11 @@ footer {
     text-align: center;
     font-size: 14px;
 }
+
+footer p {
+    text-align: center;
+}
+
 footer nav a {
     color: white;
     text-decoration: none;
@@ -128,5 +155,9 @@ footer nav a {
     transition: color 0.3s ease;
 }
 footer nav a:hover {
-    color: #FFD700;
-}
+        background-color: hsl(210, 87%, 22%);
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: .5s;
+    }
